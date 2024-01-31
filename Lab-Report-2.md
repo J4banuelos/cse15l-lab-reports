@@ -92,10 +92,13 @@ The `chatHistory` field is updated by appending the new message from `EricWang`,
 ![Image](LabReport2.2.png)
 
 Heres the directory to the public key: `C:\Users\joseb/.ssh/id_rsa.pub`
+
 Heres the directory to the private key: `C:\Users\joseb/.ssh/id_rsa`
 
-Logging into `ieng6` without a password
+
+**Logging into `ieng6` without a password**
 
 ![Image](LabReport2.3.png)
 
-What I Learned from Week 2 and Week 3 Labs
+**What I Learned from Week 2 and Week 3 Labs**
+In my labs Week 2 and week 3 I learned the difference between public and private keys
