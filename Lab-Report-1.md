@@ -12,16 +12,27 @@ In this I tried to do cd when I was in no active directory, it returned to me no
 
 ![Image](LabReport.1.2.png)
 
-Here I cd into lecture1, so i went from my home directory to lecture1 directory
+Here I cd into lecture1, so i went from my home directory to lecture1 directory.
 
 *Example 3*
 
 ![Image](LabReport1.3.png)
 
-Here I tried to cd into a file called Hello.java from my home directory. it returned to me an error
+Here I tried to cd into a file called Hello.java from my home directory, it returned to me an error.
 
 **ls Commands**
 
+*Example 4*
+
 ![Image](LabReport1.4.png)
 
-from my home directory I did ls and it returned
+From my home directory I did the command ls and it returned to me my Labreport.java file I made on the side and my lecture1 directory (Highlighted blue in the picture).
+
+*Example 5*
+
+![Image](LabReport1.5.png)
+
+X
+
+
+
