@@ -26,7 +26,7 @@ Here I tried to `cd` into a file called `Hello.java` from my `home` directory, i
 
 ![Image](LabReport1.4.png)
 
-From my `home` directory I did the command `ls` and it returned to me my `Labreport.java` file I made on the side and my `lecture1` directory (Highlighted blue in the picture, since its a directory).(Not an Error)
+From my `home` directory I did the command `ls` and it returned to me my `labreport.java` file I made on the side and my `lecture1` directory (Highlighted blue in the picture, since its a directory).(Not an Error)
 
 *Example 5*
 
