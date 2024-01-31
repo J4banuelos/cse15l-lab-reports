@@ -100,5 +100,7 @@ Heres the directory to the private key: `C:\Users\joseb/.ssh/id_rsa`
 
 ![Image](LabReport2.3.png)
 
+
 **What I Learned from Week 2 and Week 3 Labs**
-In my labs Week 2 and week 3 I learned the difference between public and private keys
+
+In my labs Week 2 and week 3 I learned the `ssh` command for secure logins, also using `ieng6` and being surpised at how i could actually login with my ucsd user and password surpised me. I also learned the `scp` and `mkdir` commands, `scp` is a securely copy files and directories using `ssh` for the data transfer of the `file/directory`. `mkdir` stands for 'make directory' and you can even specify the path of it for example `mkdir /path/to/new_directory` by specifying the full path you choose where to make the directory. I also learned simple shortcuts I didnt know before, like in Vscode or edstem you dont have to retype in the terminal if youve typed it before, you simple use the up or down arrow. Another shortcut I learned is you can edit out a whole chunk of code by selecting it then pressing `ctrl + /`
