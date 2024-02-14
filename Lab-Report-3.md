@@ -60,11 +60,36 @@ public class ArrayExamples {
 `
 *Why this change works:* The fix addresses the issue by correctly calculating the index of the element to swap with. In the original code, the index `array.length - i` is out of bounds when `i` is `0`. By adjusting the index to `array.length - i - 1`, we ensure we're accessing valid indices within the array, thereby correctly reversing the array in place.This change ensures that the first element swaps with the last, the second with the second-last, and so on, correctly reversing the array.
 
+______________________________________________________________________________________________________________________
+
+**Researching Commands**
+
+`-type` This option allows you to specify the type of file you're looking for. The common types include `f` for regular files and `d` for directories.
+
+![Image]LabReport3.2.png
+
+![Image]LabReport3.3.png
 
 
+`-name` Search for files by their name, supporting wildcards such as `*` for any characters.
+
+![Image]LabReport3.4.png
+
+![Image]LabReport3.5.png
 
 
+`-mtime`: Search for files modified within a specific time frame. The number represents days; `-mtime -1` means "modified within the last day."
 
+![Image]LabReport3.6.png
+![Image]LabReport3.7.png
+
+
+ -size:` Locate files of a specific size. You can specify sizes in blocks (c for bytes, k for kilobytes, M for megabytes, and G for gigabytes).
+
+
+![Image]LabReport3.8.png
+![Image]LabReport3.9.png
+ 
 
 
 
