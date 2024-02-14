@@ -94,9 +94,14 @@ The `chatHistory` field is updated by appending the new message from `EricWang`,
 Heres the path to the private key: `C:\Users\joseb/.ssh/id_rsa`
 
 
+
+
+
 ![Image](LabReport2.Regrade.png)
 
 Absolute path to the public key `/home/linux/ieng6/oce/68/j4banuelos/.ssh/authorized_keys`
+
+
 
 
 **Logging into `ieng6` without a password**
