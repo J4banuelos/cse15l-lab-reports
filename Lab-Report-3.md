@@ -31,7 +31,7 @@ Why this test case is flawed:This test case is flawed because it uses the `rever
 
 *The symptom, as the output of running the tests*
 
-![Image]LabReport3.1.png
+![Image](LabReport3.1.png)
 
 *The bug, as the before*
 `
@@ -66,29 +66,29 @@ ________________________________________________________________________________
 
 `-type` This option allows you to specify the type of file you're looking for. The common types include `f` for regular files and `d` for directories.
 
-![Image]LabReport3.2.png
+![Image](LabReport3.2.png)
 
-![Image]LabReport3.3.png
+![Image](LabReport3.3.png)
 
 
 `-name` Search for files by their name, supporting wildcards such as `*` for any characters.
 
-![Image]LabReport3.4.png
+![Image](LabReport3.4.png)
 
-![Image]LabReport3.5.png
+![Image](LabReport3.5.png)
 
 
 `-mtime`: Search for files modified within a specific time frame. The number represents days; `-mtime -1` means "modified within the last day."
 
-![Image]LabReport3.6.png
-![Image]LabReport3.7.png
+![Image](LabReport3.6.png)
+![Image](LabReport3.7.png)
 
 
  -size:` Locate files of a specific size. You can specify sizes in blocks (c for bytes, k for kilobytes, M for megabytes, and G for gigabytes).
 
 
-![Image]LabReport3.8.png
-![Image]LabReport3.9.png
+![Image](LabReport3.8.png)
+![Image](LabReport3.9.png)
  
 
 
