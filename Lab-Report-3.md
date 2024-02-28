@@ -128,4 +128,4 @@ Finds and returns all the files in `/technical` that are less than 100 megabytes
 _____________________________________________________________________________________________________________________
 
 **Ciation for my sources**
-Find Command in Linux (Find Files and Directories): [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+Find Command in Linux (Find Files and Directories): [https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
