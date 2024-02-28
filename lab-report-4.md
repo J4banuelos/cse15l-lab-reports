@@ -14,7 +14,16 @@ Clone your fork of the repository from your Github account (using the SSH URL)
 
 ![Image](LabReport4.2.png)
 
-Keys Pressed: `git <space> clone <space> git@github.com:J4banuelos/lab7.git <enter>`
+Keys Pressed: `git <space> clone <space> git@github.com:J4banuelos/lab7.git <enter>` 
+
+First gave me an error of lab7 already exists and is not an empty directory so then I did 
+
+Keys Pressed: `rm <space> -rf <space> lab7 <enter>`
+
+This Fixed my error so then I did
+
+Keys Pressed: `<up> <up> <enter>`
+
 
 **Step 3**
 
