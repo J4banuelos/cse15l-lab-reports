@@ -31,7 +31,7 @@ Run the tests, demonstrating that they fail
 
 ![Image](LabReport4.3.png)
 
- Keys Pressed: `cd <space> lab7 <enter>,` `bash <space> test.sh <enter>`
+ Keys Pressed: `cd <space> lab7 <enter>`, `bash <space> test.sh <enter>`
 
 **Step 4**
 
