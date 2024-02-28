@@ -39,7 +39,13 @@ Edit the code file to fix the failing test
 
 ![Image](LabReport4.4.png)
 
- Keys Pressed: `44 shift G, e then r (hold it til you press desired key which you want replace character with) 1 tab :wq <enter>`
+First I enter Vim so
+
+Keys pressed: `vim <space> ListExamples.java`
+
+I then entered vim then did 
+
+Keys Pressed: `44 shift G, e then r (hold it til you press desired key which you want replace character with) 1 tab :wq <enter>`
 
 **Step 5**
 
