@@ -41,9 +41,9 @@ public void testReverseInPlaceFlawed() {
 public class ArrayExamples {
     public static void reverseInPlace(int[] array) {
         for(int i = 0; i < array.length / 2; i++) {
-            int temp = array[i];
-            array[i] = array[array.length - i];
-            array[array.length - i] = temp;
+ int temp = array[i];  // Temporarily stores the value at the current index
+array[i] = array[array.length - i]; // Issue: Attempts to access array[array.length] when i is 0, which is out of bounds.
+array[array.length - i] = temp; // Issue: This line has the same problem as the previous line, accessing out of bounds when i is 0.
         }
     }
 }
@@ -55,7 +55,7 @@ public class ArrayExamples {
     public static void reverseInPlace(int[] array) {
         for(int i = 0; i < array.length / 2; i++) {
             int temp = array[i];
-            array[i] = array[array.length - i - 1]; // Subtract 1 to correct the index
+            array[i] = array[array.length - i - 1];// Subtract 1 to correct the index
             array[array.length - i - 1] = temp;
         }
     }
