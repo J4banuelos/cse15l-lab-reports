@@ -45,7 +45,7 @@ Keys pressed: `vim <space> ListExamples.java`
 
 I then entered vim then did 
 
-Keys Pressed: `44 shift G, e then r (hold it til you press desired key which you want replace character with) 1 tab :wq <enter>`
+Keys Pressed: `44 <shift + g>`, `e `then `r` (hold it til you press desired key which you want replace character with) `1` `<shift + ;>` then `wq <enter>`
 
 **Step 5**
 
@@ -61,6 +61,6 @@ Commit and push the resulting change to your Github account
 
 ![Image](LabReport4.6.png)
 
-Keys pressed: `git <space> add <space> ListExamples.java <enter> git <space> commit <space> -m <space> "yes" <enter> git <space> push <enter>`
+Keys pressed: `git <space> add <space> ListExamples.java <enter>`, `git <space> commit <space> -m <space> "yes" <enter>`, `git <space> push <enter>`
 
 
