@@ -39,7 +39,7 @@ The issue is the `filter` method is returning the filtered elements in reverse o
 I ran the test using `bash` on a `Tests.sh` file that saved the output to a file called `output.txt ` it used the`ListExamplesTest` class, which calls the filter method with a `StringChecker` implementation that checks for string lengths greater than 5. Instead of getting the expected output, the terminal output indicates that the list order was reversed during the filtering process. 
 
 
-LabReportIMG2.2
+![Image](LabReport5.2.2.png)
 
 
 Can anyone explain why the filter method reverses the order of the elements in the output list? Also, any suggestions on how to correct this behavior to maintain the original order of elements in the filtered list would be greatly appreciated!
@@ -74,7 +74,7 @@ Condition: String length greater than 5
 Expected Output: ["banana", "cherry"]
 Actual Output after Correction: ["banana", "cherry"]
 
-LabReport3IMG
+![Image](LabReport5.3.2.png)
 
 Understanding the Bug:
 
