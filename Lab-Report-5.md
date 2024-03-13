@@ -10,22 +10,8 @@ I've been working on an assignment that involves filtering a list of strings bas
 
 Here's part of the `filter` method for context:
 
-```
-class ListExamples {
+![Image](LabReport5.1.png)
 
-  // Returns a new list that has all the elements of the input list for which
-  // the StringChecker returns true, and not the elements that return false, in
-  // the same order they appeared in the input list;
-  static List<String> filter(List<String> list, StringChecker sc) {
-    List<String> result = new ArrayList<>();
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        result.add(0, s);
-      }
-    }
-    return result;
-  }
-```
 Input List: `["apple", "banana", "cherry", "date"]`
 
 Condition: String length greater than 5
