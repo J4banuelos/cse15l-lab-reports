@@ -60,7 +60,7 @@ Condition: String length greater than 5
 Expected Output: `["banana", "cherry"]`
 Actual Output after Correction: `["banana", "cherry"]`
 
-![Image](LabReport5.3.2.png)
+![Image](LabReport5.3.3.png)
 
 Understanding the Bug:
 
