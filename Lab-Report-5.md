@@ -6,15 +6,15 @@
 
 *Title: Debugging Help Needed: `filter` Method Reverses List Order*
 
-I've been working on an assignment that involves filtering a list of strings based on certain criteria using the given `filter` method. The method is supposed to return a new list containing only the elements that satisfy a condition defined by a `StringChecker` interface, while maintaining the original order of the list.
+I've been working on an assignment that involves filtering a list of strings based on certain criteria using the given `filter` method. The method is supposed to return a new list containing only the elements that satisfy a condition defined by a `StringChecker` interface, while maintaining the original order of the list. I did `bash Tests.sh` in `home/lab3-2`:
 
 Here's part of the `filter` method for context:
 
 ![Image](LabReport5.1.png)
 
-Input List: `["apple", "banana", "cherry", "date"]`
+My Input List: `["apple", "banana", "cherry", "date"]`
 
-Condition: String length greater than 5
+with a Condition: String length greater than 5
 
 Expected Output: `["banana", "cherry"]`
 
@@ -33,7 +33,7 @@ Can anyone explain why the `filter` method reverses the order of the elements in
 
 **2) A response from a TA**
 
-Based on your description and the code snippet you shared, the key to understanding why the elements are appearing in reverse order lies in this specific line of your `filter` method:
+Hello Jose, Based on your description and the code snippet you shared, the key to understanding why the elements are appearing in reverse order lies in this specific line of your `filter` method:
 ~~~
 result.add(0, s); // Adding each string to the beginning of the list
 ~~~
