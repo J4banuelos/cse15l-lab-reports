@@ -8,7 +8,7 @@
 
 I've been working on an assignment that involves filtering a list of strings based on certain criteria using the given `filter` method. The method is supposed to return a new list containing only the elements that satisfy a condition defined by a `StringChecker` interface, while maintaining the original order of the list.
 
-Here's part of the filter method for context:
+Here's part of the `filter` method for context:
 
 ```
 class ListExamples {
@@ -26,13 +26,13 @@ class ListExamples {
     return result;
   }
 ```
-Input List: ["apple", "banana", "cherry", "date"]
+Input List: `["apple", "banana", "cherry", "date"]`
 
 Condition: String length greater than 5
 
-Expected Output: ["banana", "cherry"]
+Expected Output: `["banana", "cherry"]`
 
-Actual Output: ["cherry", "banana"]
+Actual Output: `["cherry", "banana"]`
 
 The issue is the `filter` method is returning the filtered elements in reverse order. Based on my understanding, the output order should have been the same as the input list's order for the elements that satisfy the filtering condition.
 
@@ -42,7 +42,7 @@ I ran the test using `bash` on a `Tests.sh` file that saved the output to a file
 ![Image](LabReport5.2.2.png)
 
 
-Can anyone explain why the filter method reverses the order of the elements in the output list? Also, any suggestions on how to correct this behavior to maintain the original order of elements in the filtered list would be greatly appreciated!
+Can anyone explain why the `filter` method reverses the order of the elements in the output list? Also, any suggestions on how to correct this behavior to maintain the original order of elements in the filtered list would be greatly appreciated!
 
 
 **2) A response from a TA**
@@ -55,7 +55,7 @@ By adding each matching string to the beginning of your results list `(result.ad
 
 Suggestion:
 
-To maintain the original order of elements that pass the StringChecker test, you should add them to the end of the result list instead. This can be achieved by simply using result.add(s) without specifying the index. This method appends the element to the end of the list, preserving the order.
+To maintain the original order of elements that pass the StringChecker test, you should add them to the end of the result list instead. This can be achieved by simply using `result.add(s)` without specifying the index. This method appends the element to the end of the list, preserving the order.
 
 **3)Student trying the TAs suggestion**
 
@@ -71,8 +71,8 @@ result.add(s);
 New Test Case Output:
 
 Condition: String length greater than 5
-Expected Output: ["banana", "cherry"]
-Actual Output after Correction: ["banana", "cherry"]
+Expected Output: `["banana", "cherry"]`
+Actual Output after Correction: `["banana", "cherry"]`
 
 ![Image](LabReport5.3.2.png)
 
@@ -86,14 +86,14 @@ By switching to `result.add(s)`, which appends elements to the end of the list, 
 **4)information needed about the setup**
 
 File & Directory Structure:
-
-ListExamples.java - Contains the original filter and merge methods.
-ListExamplesTest.java - Contains the test case for the filter method.
-runTests.sh (or runTests.bat for Windows) - Shell script (or batch file for Windows) to compile and run ListExamplesTest and redirect output to output.txt.
+All in the `Lab2-3` Directory:
+`ListExamples.java` - Contains the original `filter` and `merge` methods.
+`ListExamplesTest.java` - Contains the test case for the `filter` method.
+`Tests.sh` - Shell script to compile and run `ListExamplesTest` and redirect output to `output.txt`.
 
 Contents of Each File Before Fixing the Bug:
 
-ListExamples.java:
+`ListExamples.java`:
 
 ```
 import java.util.ArrayList;
@@ -142,7 +142,7 @@ class ListExamples {
 }
 ```
 
-ListExamplesTest.java: 
+`ListExamplesTest.java`: 
 
 ```
 import java.util.Arrays;
@@ -180,7 +180,7 @@ public class ListExamplesTest {
 }
 ```
 
-runTests.sh:
+`runTests.sh`:
 
 ```
 #!/bin/bash
@@ -192,8 +192,7 @@ The full command line (or lines) you ran to trigger the bug:
 `bash Tests.sh`
 
 A description of what to edit to fix the bug:
-Changed the line:
-
+Changed the line in the file `ListExamplesTest.java`:
 ```
 result.add(0, s);
 ```
